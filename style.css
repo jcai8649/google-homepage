@@ -1,0 +1,124 @@
+* {
+  font-family: arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing:border-box;
+}
+
+#searchbar {
+  background: #fff; 
+  display: flex; 
+  border: 1px solid #dfe1e5; 
+  box-shadow: none; 
+  border-radius: 24px; margin:0 auto; 
+  width:484px; height:44px; 
+  font-size: 16px; 
+  padding-left: 20px; 
+  outline:none;
+}
+
+#google_image {
+  height: 92px;
+  width: 272px;
+}
+
+#main{
+  text-align: center;
+  padding-top 140px;
+}
+
+header {
+  position: fixed;
+  top: 16px;
+  width: 100%;
+}
+
+form{
+  margin-top: 18px;
+}
+
+header a{
+  display: inline-block;
+  padding-left: 15px;
+  color: #000;
+  opacity: 0.75;
+  font-size: 13px;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover{
+  text-decoration: underline;
+  cursor:pointer;
+}
+
+body {
+  margin-top: 200px;
+  background-color: #fff;
+  font-size: 13px;
+}
+
+#L{
+  float: left;
+}
+
+#R{
+  float: right;
+  padding-right: 25px;
+}
+
+#SigninBtn {
+    margin-left: 20px;
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    color: #fff;
+    padding: 0 12px;
+    background-color: #4285f4;
+    border-radius: 3px;
+    line-height: 28px;
+}
+
+form > button {
+    border: 1px solid #f2f2f2;
+    background-color: #f5f5f5;
+    border-radius: 4px;
+    padding: 3px 16px;
+    color: #5F6368;
+    font-size: 14px;
+    margin: 28px 4px;
+    line-height: 28px;
+    cursor: pointer;
+}
+
+footer{
+    width: 100%;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    border-top: 1px solid #e4e4e4;
+    padding-bottom: 12px;
+    left: 0;
+    right: 0;
+    padding-top: 12px;
+}
+
+footer a{
+  color:#5f6368;
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.foot  {
+    padding-left: 27px;
+    margin: 0 !important;
+}
+
+#right {
+  margin-right: 30px;
+  float: right;
+  white-space nowrap;
+}
+
+
